@@ -53,3 +53,29 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+
+# Build directories
+build/
+bin/
+obj/
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+
+# Generated signal data
+data/generated/
+
+# Temporary benchmark outputs
+results/temp/
+
+# Editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
